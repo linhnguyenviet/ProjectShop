@@ -1,0 +1,72 @@
+.Cart {
+    width:1140px;
+    margin: auto;
+}
+.Cart h1 {
+    color:#3FB871;
+    font-weight:bold;
+    font-size: 18px;
+    margin: 70px 0 63px 0;
+}
+.Cart table {
+    border:1px solid black;
+    border-collapse: collapse;
+}
+
+.Cart table td, .Cart table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+.Cart tbody tr:first-child th {
+    background:#3fb871;
+    padding : 20px 60.5px;
+    text-align: center;
+    font-size: 14px;
+    color:white;
+}
+.Cart .cartBtn  {
+    width:150px;
+    height:45px;
+    border-radius:20px;
+    border:1px solid #3fb871;
+    background: #3fb871;
+    color:white;
+    font-size:13px;
+    margin: 0px 0px 100px 20px;
+    cursor: pointer;
+}
+
+.Cart .light {
+    background: white;
+    color:#3fb871;
+}
+.Cart .buttonGroup {
+    text-align: right;
+    margin: 40px 0px 10px 0px;
+}
+
+.Cart .total {
+    margin-bottom:30px;
+}
+.Cart .total tr:first-child td {
+    background: white;
+    color:#3fb871;
+    font-weight: bold;
+    padding:50px 90px 30px 90px;
+}
+.Cart .total td {
+    text-align: center;
+    padding:50px 100px 30px 100px;
+}
+.Cart .total tr:last-child td {
+    background: #3fb871;
+    color:white;
+    font-weight: bold;
+}
+.Cart .buttonGroup2  {
+    text-align: right;
+    margin-bottom: 30px;
+}
+.Cart .total table {
+    margin-left:auto;
+}

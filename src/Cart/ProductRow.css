@@ -1,0 +1,50 @@
+.ProductRow td:first-child div {
+    width:150px;
+    margin:auto;
+    padding: 10px 0px;
+}
+
+.ProductRow img {
+    height:150px;
+}
+.ProductRow td  {
+    vertical-align: middle;
+    text-align: center;
+
+}
+.ProductRow td:nth-child(2) {
+    color:#3FB871;
+}
+.ProductRow td:nth-child(3) {
+    color:#5e5c5c;
+    
+}
+.ProductRow td:nth-child(5) {
+    color:#5e5c5c;
+}
+
+.ProductRow td:nth-child(4) .cartNumber{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cartNumber button{
+    display: inline-block;
+}
+/* .ProductRow td:nth-child(4) .cartNumber div {
+    width:42px;
+    height:42px;
+    border:1px solid rgb(180, 180, 180);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+} */
+.ProductRow i {
+    font-size: 1em;
+    color:rgb(112, 112, 112);
+    margin-left:15px;
+    margin-right:15px;
+    cursor: pointer;
+
+}
