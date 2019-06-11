@@ -5,6 +5,7 @@
   "dependencies": {
     "axios": "^0.18.0",
     "glob": "^7.1.4",
+    "heroku": "^7.25.0",
     "react": "^16.8.6",
     "react-awesome-modal": "^2.0.5",
     "react-dom": "^16.8.6",
